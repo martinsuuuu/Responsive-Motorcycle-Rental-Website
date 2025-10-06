@@ -35,7 +35,7 @@ const testimonials = [
   {
     name: "Mike Chen",
     rating: 5,
-    comment: "Professional service from start to finish. The delivery was on time and the motorcycle exceeded my expectations.",
+    comment: "Professional service from start to finish. The motorcycle was in excellent condition and exceeded my expectations.",
     trip: "Mountain Adventure"
   },
   {
@@ -57,7 +57,7 @@ export function About() {
               Your Trusted Motorcycle Rental Partner
             </h2>
             <p className="text-lg text-gray-600 mb-6">
-              For over 5 years, RideRental has been helping adventure seekers explore the world on two wheels. 
+              For over 5 years, CM Motorcycle Rental has been helping adventure seekers explore the world on two wheels. 
               We're passionate about motorcycles and committed to providing safe, reliable, and unforgettable experiences.
             </p>
             <div className="space-y-4">

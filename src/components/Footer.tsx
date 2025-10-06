@@ -7,7 +7,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div>
-            <h3 className="text-2xl font-bold mb-4">RideRental</h3>
+            <h3 className="text-2xl font-bold mb-4">CM Motorcycle Rental</h3>
             <p className="text-gray-400 mb-4">
               Your trusted partner for motorcycle rentals and adventures. 
               Explore the world on two wheels with confidence and style.
@@ -76,11 +76,6 @@ export function Footer() {
               </li>
               <li>
                 <a href="#" className="text-gray-400 hover:text-white transition-colors">
-                  Insurance Info
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-gray-400 hover:text-white transition-colors">
                   Terms & Conditions
                 </a>
               </li>
@@ -99,24 +94,24 @@ export function Footer() {
               <div className="flex items-start gap-3">
                 <MapPin className="h-5 w-5 text-yellow-400 mt-0.5 flex-shrink-0" />
                 <div className="text-gray-400">
-                  123 Adventure Street<br />
-                  Motorcycle District<br />
-                  City, State 12345
+                  Casañas Street, Corner Maria Clara Street<br />
+                  Sampaloc Manila<br />
+                  4th District, Barangay 516
                 </div>
               </div>
               <div className="flex items-center gap-3">
                 <Phone className="h-5 w-5 text-yellow-400 flex-shrink-0" />
-                <div className="text-gray-400">(555) 123-4567</div>
+                <div className="text-gray-400">(+63)9052794814</div>
               </div>
               <div className="flex items-center gap-3">
                 <Mail className="h-5 w-5 text-yellow-400 flex-shrink-0" />
-                <div className="text-gray-400">info@riderental.com</div>
+                <div className="text-gray-400">clarencecuenca_008@yahoo.com.ph</div>
               </div>
             </div>
             
             <div className="mt-4 p-3 bg-gray-800 rounded-lg">
               <p className="text-sm text-yellow-400 font-semibold">24/7 Emergency Support</p>
-              <p className="text-sm text-gray-400">(555) 123-4568</p>
+              <p className="text-sm text-gray-400">(+63)9052794814</p>
             </div>
           </div>
         </div>
@@ -125,7 +120,7 @@ export function Footer() {
         <div className="border-t border-gray-800 mt-8 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-gray-400 text-sm">
-              © 2024 RideRental. All rights reserved.
+              © 2024 CM Motorcycle Rental. All rights reserved.
             </div>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">

@@ -1,4 +1,4 @@
-# RideRental - Premium Motorcycle Rental Website
+# CM Motorcycle Rental - Premium Motorcycle Rental Website
 
 A modern, responsive website for a motorcycle rental business built with React, TypeScript, and Tailwind CSS.
 
@@ -34,7 +34,7 @@ A modern, responsive website for a motorcycle rental business built with React, 
 1. **Clone the repository**
    ```bash
    git clone <your-repo-url>
-   cd riderental-website
+   cd CM Motorcycle Rental
    ```
 
 2. **Install dependencies**

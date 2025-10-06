@@ -1,5 +1,5 @@
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
-import { CheckCircle, Clock, MapPin, Shield, Wrench, Headphones } from "lucide-react";
+import { CheckCircle, Clock, Wrench, Headphones } from "lucide-react";
 
 const services = [
   {
@@ -7,18 +7,6 @@ const services = [
     title: "Easy Booking",
     description: "Reserve your motorcycle online in just a few clicks. Choose your dates, pick your bike, and you're ready to ride.",
     features: ["Online reservation", "Instant confirmation", "Flexible dates", "Mobile app"]
-  },
-  {
-    icon: Shield,
-    title: "Full Insurance",
-    description: "Ride with confidence knowing you're fully covered. Our comprehensive insurance protects you and the motorcycle.",
-    features: ["Collision coverage", "Theft protection", "Liability insurance", "Roadside assistance"]
-  },
-  {
-    icon: MapPin,
-    title: "Free Delivery",
-    description: "We'll bring the motorcycle to you within the city limits. No need to visit our location unless you want to.",
-    features: ["City-wide delivery", "Flexible pickup", "Hotel delivery", "GPS included"]
   },
   {
     icon: Wrench,
@@ -46,7 +34,7 @@ export function Services() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            Why Choose RideRental?
+            Why Choose CM Motorcycle Rental?
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             We make motorcycle rental simple, safe, and convenient. Focus on the ride, we'll handle the rest.
@@ -104,8 +92,8 @@ export function Services() {
               <div className="mx-auto mb-4 p-4 bg-primary text-white rounded-full w-fit">
                 <span className="text-xl font-bold">3</span>
               </div>
-              <h4 className="font-semibold mb-2">Get Delivery</h4>
-              <p className="text-sm text-gray-600">We'll deliver the motorcycle to your location or meet at our facility.</p>
+              <h4 className="font-semibold mb-2">Pick Up</h4>
+              <p className="text-sm text-gray-600">Visit our facility to pick up your motorcycle and start your adventure.</p>
             </div>
             <div className="text-center">
               <div className="mx-auto mb-4 p-4 bg-primary text-white rounded-full w-fit">

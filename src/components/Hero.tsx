@@ -1,6 +1,6 @@
 import { Button } from "./ui/button";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
-import { ArrowRight, Shield, Clock, Award } from "lucide-react";
+import { ArrowRight, Clock, Award } from "lucide-react";
 
 export function Hero() {
   return (
@@ -37,11 +37,6 @@ export function Hero() {
 
         {/* Trust Indicators */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-3xl mx-auto">
-          <div className="flex flex-col items-center">
-            <Shield className="h-8 w-8 text-yellow-400 mb-2" />
-            <h3 className="font-semibold mb-1">Fully Insured</h3>
-            <p className="text-sm text-gray-300">Complete coverage included</p>
-          </div>
           <div className="flex flex-col items-center">
             <Clock className="h-8 w-8 text-yellow-400 mb-2" />
             <h3 className="font-semibold mb-1">24/7 Support</h3>

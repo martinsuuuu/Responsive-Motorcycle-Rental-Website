@@ -11,7 +11,7 @@ export function Header() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <h1 className="text-2xl font-bold text-primary">RideRental</h1>
+            <h1 className="text-2xl font-bold text-primary">CM Motorcycle Rental</h1>
           </div>
 
           {/* Desktop Navigation */}
@@ -34,7 +34,7 @@ export function Header() {
           <div className="hidden lg:flex items-center space-x-4">
             <div className="flex items-center space-x-2 text-sm text-gray-600">
               <Phone className="h-4 w-4" />
-              <span>(555) 123-4567</span>
+              <span>(+63)9052794814</span>
             </div>
             <Button>Book Now</Button>
           </div>

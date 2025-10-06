@@ -43,7 +43,7 @@ export function Contact() {
               
               <div>
                 <Label htmlFor="phone">Phone Number</Label>
-                <Input id="phone" type="tel" placeholder="(555) 123-4567" />
+                <Input id="phone" type="tel" placeholder="(+63)9052794814" />
               </div>
               
               <div>
@@ -77,9 +77,9 @@ export function Contact() {
                   <div>
                     <h3 className="font-semibold text-lg mb-2">Visit Our Location</h3>
                     <p className="text-gray-600">
-                      123 Adventure Street<br />
-                      Motorcycle District<br />
-                      City, State 12345
+                      Casañas Street, Corner Maria Clara Street<br />
+                      Sampaloc Manila<br />
+                      4th District, Barangay 516
                     </p>
                   </div>
                 </div>
@@ -95,8 +95,8 @@ export function Contact() {
                   <div>
                     <h3 className="font-semibold text-lg mb-2">Call Us</h3>
                     <p className="text-gray-600">
-                      Main: (555) 123-4567<br />
-                      Emergency: (555) 123-4568
+                      Main: (+63)9052794814<br />
+                      Emergency: (+63)9052794814
                     </p>
                   </div>
                 </div>
@@ -112,8 +112,7 @@ export function Contact() {
                   <div>
                     <h3 className="font-semibold text-lg mb-2">Email Us</h3>
                     <p className="text-gray-600">
-                      info@riderental.com<br />
-                      support@riderental.com
+                      clarencecuenca_008@yahoo.com.ph
                     </p>
                   </div>
                 </div>
@@ -129,9 +128,8 @@ export function Contact() {
                   <div>
                     <h3 className="font-semibold text-lg mb-2">Business Hours</h3>
                     <div className="text-gray-600 space-y-1">
-                      <p>Monday - Friday: 8:00 AM - 8:00 PM</p>
-                      <p>Saturday: 9:00 AM - 6:00 PM</p>
-                      <p>Sunday: 10:00 AM - 5:00 PM</p>
+                      <p>Monday to Thursday 9:00 AM – 10:00 PM</p>
+                      <p>Friday to Saturday 9:00 AM – 12:00 MN</p>
                       <p className="text-sm text-yellow-600 font-medium mt-2">24/7 Emergency Support Available</p>
                     </div>
                   </div>
@@ -154,7 +152,7 @@ export function Contact() {
               Book Online Now
             </Button>
             <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-black px-8">
-              Call (555) 123-4567
+              Call (+63)9052794814
             </Button>
           </div>
         </div>
